@@ -3,6 +3,7 @@ There are three things we can do with the instances:
 --> Launch OS 
 --> Start-Reboot existing instance 
 --> Stop instance
+#	During execution of the code we have to update instance_id & file-name along with actions which we want to perform. #
 """
 
 # Python Used Libraries
