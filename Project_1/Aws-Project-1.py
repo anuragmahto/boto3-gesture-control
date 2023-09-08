@@ -39,20 +39,34 @@ while True:
 
 			if fingerstatus == [1,0,0,0,0]:
 				print("\nThumbs Up")
+				Launch_OS()
+
 			elif fingerstatus == [1,1,0,0,0]:
 				print("\nThumb & Index Up")
+				user_create()
+
 			elif fingerstatus == [1,1,1,0,0]:
 				print("\nThumb & Index & Middle Up")
+				user_update()
+
 			elif fingerstatus == [0,1,0,0,0]:
 				print("\nIndex Up")
+				bucket_create()
+
 			elif fingerstatus == [0,1,1,0,0]:
 				print("\nIndex & Middle Up")
+				bucket_delete()
+				
 			elif fingerstatus == [0,1,1,1,0]:
 				print("\nIndex & Middle & Ring Up")
+
 			elif fingerstatus == [0,1,1,1,1]:
 				print("\nIndex & Middle & Ring & Little Up")
+
 			elif fingerstatus == [1,1,1,1,1]:
 				print("\nAll Up")
+				user_delete()
+
 			else:
 				delay = 0
 cap.release()
