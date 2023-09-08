@@ -56,13 +56,15 @@ while True:
 			elif fingerstatus == [0,1,1,0,0]:
 				print("\nIndex & Middle Up")
 				bucket_delete()
-				
+
 			elif fingerstatus == [0,1,1,1,0]:
 				print("\nIndex & Middle & Ring Up")
+				keys_create()
 
 			elif fingerstatus == [0,1,1,1,1]:
 				print("\nIndex & Middle & Ring & Little Up")
-
+				keys_delete()
+				
 			elif fingerstatus == [1,1,1,1,1]:
 				print("\nAll Up")
 				user_delete()
