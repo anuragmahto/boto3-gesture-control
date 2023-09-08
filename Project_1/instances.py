@@ -3,8 +3,9 @@ There are three things we can do with the instances:
 --> Launch OS 
 --> Start-Reboot existing instance 
 --> Stop instance
-#	During execution of the code we have to update instance_id & file-name along with actions which we want to perform. #
 """
+
+#	During execution of the code we have to update instance_id & file-name along with actions which we want to perform. #
 
 # Python Used Libraries
 import boto3
@@ -71,6 +72,9 @@ def Reboot():
 		print(response)
 	except ClientError as e:
 		print(e)
+
 # Launch_OS()
+
 # Start_Stop()
+
 # Reboot()
