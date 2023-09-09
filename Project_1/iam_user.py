@@ -22,12 +22,11 @@ def user_update():
 	user_list()
 
 def user_delete():
-	name = "Harshit"
+	name = "Abhinaw"
 	my_iam.delete_user(UserName=name)
 	print(f"\nThe user {name} has removed.\n")
 	user_list()
 
 # user_create()
-# user_list()
 # user_update()
 # user_delete()

@@ -5,7 +5,6 @@ There are three things we can do with the instances:
 --> Stop instance
 """
 
-#	During execution of the code we have to update instance_id & file-name along with actions which we want to perform. #
 
 # Python Used Libraries
 import boto3
@@ -17,13 +16,8 @@ action = sys.argv[1].upper()
 
 my_ec2 = boto3.client('ec2')
 
-def Launch_OS():
-	response = my_ec2.create_instances(
-		ImageId="ami-0da59f1af71ea4ad2",
-		InstanceType="t2.micro",
-		MaxCount=1,
-		MinCount=1
-	)
+#	During execution of the code we have to update instance_id & file-name along with actions which we want to perform. #
+# 	Below functions are for existing Instances only.
 
 def Start_Stop():
 	if action == "ON":

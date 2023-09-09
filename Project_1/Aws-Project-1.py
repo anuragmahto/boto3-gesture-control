@@ -1,3 +1,10 @@
+# Importing functions from different files in this main file
+
+from launch_os import Launch_OS
+from iam_user import user_create,user_delete,user_update
+from bucket import bucket_create, bucket_delete
+from key_pairs import keys_create, keys_delete
+
 # Python Used Libraries
 
 import boto3 
@@ -63,10 +70,10 @@ while True:
 
 			elif fingerstatus == [0,1,1,1,1]:
 				print("\nIndex & Middle & Ring & Little Up")
-				keys_delete()
-				
+
 			elif fingerstatus == [1,1,1,1,1]:
 				print("\nAll Up")
+				keys_delete()
 				user_delete()
 
 			else:
