@@ -11,26 +11,26 @@ def user_list():
 def user_create():
 	name = "Harshit"
 	response = my_iam.create_user(UserName=name)
-	print(f"\nThe user {name} has created.\n")
+	print(f"\nThe user ' {name} ' has created.\n")
 	print(response,"\n")
 	user_list()
 
 def user_update():
 	name = "Abhinaw"
 	my_iam.update_user(UserName='Harshit', NewUserName=name)
-	print(f"The user {name} has updated.\n")
+	print(f"The user ' {name} ' has updated.\n")
 	user_list()
 
 def user_delete():
 	name = "Harshit"
 	my_iam.delete_user(UserName=name)
-	print(f"\nThe user {name} has removed.\n")
+	print(f"\nThe user ' {name} ' has removed.\n")
 	user_list()
 
 def upd_user_delete():
 	name = "Abhinaw"
 	my_iam.delete_user(UserName=name)
-	print(f"\nThe user {name} has removed.\n")
+	print(f"\nThe user ' {name} ' has removed.\n")
 	user_list()
 
 # user_create()

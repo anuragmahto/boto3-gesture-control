@@ -18,12 +18,12 @@ def bucket_list():
 
 def bucket_create():
 	response = my_bucket.create_bucket(Bucket=bucket_name, CreateBucketConfiguration=location)
-	print(f"\nThe bucket {bucket_name} has created.")
+	print(f"\nThe bucket ' {bucket_name} ' has created.")
 	bucket_list()
 
 def bucket_delete():
 	my_bucket.delete_bucket(Bucket=bucket_name)
-	print(f"\nThe bucket {bucket_name} has removed.")
+	print(f"\nThe bucket ' {bucket_name} ' has removed.")
 	bucket_list()
 
 # bucket_create()

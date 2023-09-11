@@ -10,12 +10,12 @@ def keys_describe():
 
 def keys_create():
 	response = my_ec2.create_key_pair(KeyName=key_pair_name)
-	print(f"\nThe new {key_pair_name} has created. :\n\n")
+	print(f"\nThe new ' {key_pair_name} ' has created. :\n\n")
 	keys_describe()
 
 def keys_delete():
 	response = my_ec2.delete_key_pair(KeyName=key_pair_name)
-	print(f"\nThe new {key_pair_name} has removed. :\n\n")
+	print(f"\nThe new ' {key_pair_name} ' has removed. :\n\n")
 	keys_describe()
 
 # keys_create()
