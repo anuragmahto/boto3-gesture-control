@@ -97,11 +97,11 @@ while True:
 			text_showing = True
 			
 	if text_showing and time.time() < text_off:
-		cv2.putText(photo,text,(10,50),cv2.FONT_HERSHEY_SIMPLEX,1,(127,255,212),2)
+		cv2.putText(photo,text,(10,50),cv2.FONT_HERSHEY_SIMPLEX,1,(255,114,86),2)
 	else:
 		text_showing = False
 
-	scale_percent = 60
+	scale_percent = 150
 	width = int(photo.shape[1] * scale_percent / 100)
 	height = int(photo.shape[0] * scale_percent / 100)
 	dim = (width, height)
