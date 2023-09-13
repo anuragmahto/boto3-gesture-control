@@ -8,7 +8,6 @@ from key_pairs import keys_create, keys_delete
 # Python Used Libraries
 
 import boto3 
-import sys
 import time 
 import cv2
 from cvzone.HandTrackingModule import HandDetector
