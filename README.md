@@ -21,6 +21,7 @@ With just a few simple hand gestures, you can interact with your AWS resources, 
 
 ## Usage
 1 Ensure you have the required Python libraries and AWS credentials set up.
+[Follow this link to setup your aws account credentials.] (https://docs.aws.amazon.com/cli/latest/reference/configure/)
 
 2 Run the main.py script to start the application.
 
