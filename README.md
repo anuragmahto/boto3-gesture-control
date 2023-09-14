@@ -33,22 +33,13 @@ With just a few simple hand gestures, you can interact with your AWS resources, 
 
 2 Install the necessary Python libraries using
  ```python 
-pip install -r py_requirements.txt
+pip install -r requirements.txt
 ```
 3 Configure your AWS credentials in the appropriate AWS configuration file.
 ***
 
 ## Dependencies
-* Python 3.x
+* Python 3.8.10
 * OpenCV
 * boto3
 * cvzone
-
-## Contributing
-
-Contributions to this project are welcome! Feel free to open issues, suggest improvements, or submit pull requests.
-
-## License
-This project is licensed under the MIT License.
-
-[MIT](https://choosealicense.com/licenses/mit/)
