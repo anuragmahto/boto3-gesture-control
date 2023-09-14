@@ -20,24 +20,24 @@ With just a few simple hand gestures, you can interact with your AWS resources, 
 * Integration with AWS services
 
 ## Usage
-1 Ensure you have the required Python libraries and AWS credentials set up.
+1) Ensure you have the required Python libraries and AWS credentials set up.
 
 [Follow this link to setup your aws account credentials.] (https://docs.aws.amazon.com/cli/latest/reference/configure/)
 
-2 Run the main.py script to start the application.
+2) Run the main.py script to start the application.
 
-3 Use hand gestures to control AWS operations based on the gesture key mapping.
+3) Use hand gestures to control AWS operations based on the gesture key mapping.
 
 ***
 
 ## Installation
-1 Clone this repository to your local machine.
+1) Clone this repository to your local machine.
 
-2 Install the necessary Python libraries using
+2) Install the necessary Python libraries using
  ```python 
 pip install -r requirements.txt
 ```
-3 Configure your AWS credentials in the appropriate AWS configuration file.
+3) Configure your AWS credentials in the appropriate AWS configuration file.
 ***
 
 ## Dependencies
